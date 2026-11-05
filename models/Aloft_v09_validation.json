@@ -1,0 +1,93 @@
+{
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 24,
+  "duration_seconds": 30,
+  "frame_count": 720,
+  "neon_coverage_pixels": 12501,
+  "changed_region_pixels": 343196,
+  "mask_sum_alpha_mean_absolute_error": 8.636606707579375e-11,
+  "denoiser": "Intel Open Image Denoise2.3.3, RT HDR, high, noisy albedo/normal auxiliaries",
+  "color_management": "Blender AgX, sRGB, exposure0, lookNone",
+  "program_knots_seconds_and_mode": [
+    [
+      0,
+      0
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      12,
+      2
+    ],
+    [
+      14,
+      3
+    ],
+    [
+      22,
+      3
+    ],
+    [
+      24,
+      1
+    ],
+    [
+      28,
+      1
+    ],
+    [
+      30,
+      0
+    ]
+  ],
+  "background_static": true,
+  "material_recalculated_each_frame": true,
+  "optical_bloom": "Two spatial Gaussian lobes, scene-linear, group material flux",
+  "moving_reflections_or_pixel_spill": false,
+  "source_blend_sha256": "1fc6d7e1683f9dbd3fd41ddd5eba0d2e9fa1ebbb5e218dfa8fd04f2d9d888d66",
+  "unique_frame_images": 645,
+  "last_to_first_mean_absolute_RGB": 0.0015055941358024692,
+  "bytes": 2221912,
+  "sha256": "451fd0c9a99a494ad85f37012d5a937d89098fdcf12742764d02261fbb284005",
+  "seconds": 88.43,
+  "ffprobe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "pix_fmt": "yuv420p",
+        "avg_frame_rate": "24/1",
+        "nb_read_frames": "720"
+      }
+    ],
+    "format": {
+      "duration": "30.000000",
+      "size": "2221912"
+    }
+  },
+  "complete_video_decode_passed": true,
+  "native_V08_source_unchanged": true,
+  "old_video": {
+    "resolution": [
+      448,
+      640
+    ],
+    "duration_seconds": 8,
+    "unique_motion_frames_per_second": 8
+  },
+  "pixel_count_ratio": 7.232142857142857,
+  "duration_ratio": 3.75,
+  "encoded_first_frame_mean_absolute_RGB_error_8bit": 1.2556193737139918
+}
