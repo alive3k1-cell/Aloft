@@ -1,0 +1,3 @@
+import http from 'node:http';import fs from 'node:fs/promises';import path from 'node:path';
+const root=path.join(import.meta.dirname,'dist');const port=Number(process.env.PORT||8080);
+http.createServer(async(req,res)=>{try{const file=req.url==='/'?'index.html':decodeURIComponent(req.url.split('?')[0].slice(1));const p=path.resolve(root,file);if(!p.startsWith(root+path.sep))throw new Error();const b=await fs.readFile(p);res.writeHead(200,{'Content-Type':file.endsWith('.html')?'text/html; charset=utf-8':'application/json','Cache-Control':'no-store'});res.end(b);}catch{res.writeHead(404);res.end('Not found');}}).listen(port,'127.0.0.1',()=>console.log('Aloft viewer: http://127.0.0.1:'+port));

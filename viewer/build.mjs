@@ -1,0 +1,13 @@
+import {build} from 'esbuild';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import crypto from 'node:crypto';
+const root=import.meta.dirname;const metadata=JSON.parse(await fs.readFile(path.join(root,'assets/scene.json'),'utf8'));
+const photos={};for(const c of metadata.referenceCameras)photos[c.id]='data:image/jpeg;base64,'+(await fs.readFile(path.join(root,'..',c.image))).toString('base64');
+const data={metadata,photos,model:(await fs.readFile(path.join(root,'assets/aloft_v10.glb'))).toString('base64')};
+const result=await build({entryPoints:[path.join(root,'src/app.js')],bundle:true,format:'iife',target:['chrome110','firefox115','safari17'],minify:true,write:false,legalComments:'eof'});
+const css=await fs.readFile(path.join(root,'src/style.css'),'utf8');let html=await fs.readFile(path.join(root,'index.html'),'utf8');
+html=html.replace('<!--STYLE-->',()=>'<style>'+css+'</style>').replace('<!--ASSETS-->',()=>JSON.stringify(data).replaceAll('<','\\u003c')).replace('<!--SCRIPT-->',()=>'<script>'+result.outputFiles[0].text.replaceAll('</script','<\\/script')+'</script>');
+const license=await fs.readFile(path.join(root,'node_modules/three/LICENSE'),'utf8');html+='\n<!-- Three.js runtime license\n'+license+'\n-->\n';
+await fs.mkdir(path.join(root,'dist'),{recursive:true});await fs.writeFile(path.join(root,'dist/index.html'),html);
+await fs.writeFile(path.join(root,'dist/build.json'),JSON.stringify({bytes:Buffer.byteLength(html),model:metadata.glb_sha256,html_sha256:crypto.createHash('sha256').update(html).digest('hex')},null,2));console.log('Portable viewer:',(Buffer.byteLength(html)/1048576).toFixed(2),'MiB');

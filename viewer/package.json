@@ -1,0 +1,9 @@
+{
+  "name": "aloft-lighting-workbench",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"build": "node build.mjs", "start": "node serve.mjs", "test": "node tests/state.mjs && node tests/browser.mjs"},
+  "dependencies": {"three": "0.180.0"},
+  "devDependencies": {"esbuild": "0.25.10", "playwright-core": "1.56.1"}
+}
