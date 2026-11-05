@@ -1,0 +1,48 @@
+{
+  "version": "V08",
+  "native_reopened": true,
+  "architecture_and_roof_meshes_unchanged_from_V07": 92,
+  "source_curve_geometry_unchanged": 61,
+  "source_guides_hidden": true,
+  "animated_diffuser_meshes": 61,
+  "unique_original_preview_pixel_ids": 1834,
+  "original_pixel_positions_unchanged": true,
+  "all_four_modes_driver_checked": true,
+  "independent_W_added_after_RGB_effect": true,
+  "pool_effects_independent": true,
+  "master_zero_disables_neon_and_spill": true,
+  "environment_does_not_change_neon_level": true,
+  "cycle_frames": [
+    1,
+    192
+  ],
+  "fps": 24,
+  "period_seconds_at_speed_1": 8,
+  "period_boundary_math_checked": true,
+  "external_textures_required": false,
+  "hardware_addressing": "Not assigned; geometric visual phases only",
+  "photometry": "Art-directed radiance and coarse spill, no lux/IES calculation",
+  "rendered_preview": {
+    "unique_frames": 64,
+    "samples": 64,
+    "half_cycle_mean_absolute_RGB_difference_8bit": 0.4011160714285714,
+    "seam_mean_absolute_RGB_difference_8bit": 0.037255859375,
+    "maximum_adjacent_frame_difference_8bit": 0.042436290922619045,
+    "static_background_patch_unchanged": true
+  },
+  "video": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 448,
+        "height": 640,
+        "avg_frame_rate": "24/1",
+        "nb_frames": "192"
+      }
+    ],
+    "format": {
+      "duration": "8.000000"
+    }
+  }
+}
