@@ -1,0 +1,81 @@
+{
+  "version": "V07",
+  "scope": "Geometry, source registration, roundtrip and visual controls; no photometric or installation approval",
+  "accepted_V06_objects_preserved_exactly": 71,
+  "CAD_lines": {
+    "unique_segments": 61,
+    "cad_length_m": 305.67437636308864,
+    "preview_pixels": 1834,
+    "duplicated_copy_excluded": "32BF51",
+    "all_segments_matched_original_overlays": true
+  },
+  "blend_reopened": {
+    "primary_nonmanifold_edges_after_position_weld": 0,
+    "cutout_empty_at_20_5": true,
+    "both_wings_present": true,
+    "mesh_objects": 92
+  },
+  "accepted_facade_checks": {
+    "ground_terrace_top_m": 0.0,
+    "upper_front_balcony_rows_only": [
+      30.0,
+      33.3
+    ],
+    "west_end_curtain_preserved": true,
+    "rear_annotation_glazed": true,
+    "upper_right_window_full_height": true,
+    "under_terrace_discrete_windows": true,
+    "grey_panel_pattern_model_area_m2": 83.389,
+    "grey_pattern_height_bands": 10,
+    "columns_supported_at_base_and_touch_roof": 11
+  },
+  "external_textures_required": false,
+  "pool_source_curves_on_soffit_and_spill_downward": true,
+  "controls": {
+    "MASTER_zero_disables_emission_and_spill": true,
+    "environment_independent_from_neon": true,
+    "independent_W_neutral_preview": true,
+    "bloom_zero_disables_glow": true,
+    "exposure_driver": true
+  },
+  "glb_reimported": {
+    "primary_nonmanifold_edges_after_position_weld": 0,
+    "cutout_empty_at_20_5": true,
+    "both_wings_present": true,
+    "mesh_objects": 92
+  },
+  "glb_accepted_facade_checks": {
+    "ground_terrace_top_m": 0.0,
+    "upper_front_balcony_rows_only": [
+      30.0,
+      33.3
+    ],
+    "west_end_curtain_preserved": true,
+    "rear_annotation_glazed": true,
+    "upper_right_window_full_height": true,
+    "under_terrace_discrete_windows": true,
+    "grey_panel_pattern_model_area_m2": 83.389,
+    "grey_pattern_height_bands": 10,
+    "columns_supported_at_base_and_touch_roof": 11
+  },
+  "glb_source_neon_meshes": 61,
+  "glb_excludes_site_and_temporary_pool_receiver": true,
+  "source_dwg_sha256": {
+    "codexF.dwg": "7078aa245939e2f60e2f431a84854e445d95cf6ea0c8a66275ba50f95cc6f84e",
+    "Геометрия.dwg": "77db0648bb8480c9acabfb5631dbc7e70377071d855996b0e97ae782498addf0"
+  },
+  "rendered_dimming_check": {
+    "off": {
+      "mean_luminance": 0.14394020199486043,
+      "brightest_1000_mean": 0.6103399545098038
+    },
+    "medium": {
+      "mean_luminance": 0.1459994063602003,
+      "brightest_1000_mean": 0.6298450580392155
+    },
+    "bright": {
+      "mean_luminance": 0.14705161452471613,
+      "brightest_1000_mean": 0.691254454117647
+    }
+  }
+}
