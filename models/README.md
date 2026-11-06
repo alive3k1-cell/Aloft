@@ -1,5 +1,15 @@
 # Aloft — архитектура и RGBW-свет
 
+## V11 — исправления крыши, террасы и ночного света
+
+**[Скачать просмотрщик V11](Aloft_Interactive_v11.zip)** · [HTML отдельно](Aloft_Interactive_v11.html) · [Blender V11](Aloft_Blender_v11.zip)
+
+Серый керамогранит затемнён, кровля стала чёрной. Над бассейном открыт проём, уточнены подшивка и установка неона; замкнуты короткие разрывы и уступ во дворе, исправлены стыки ламелей. На главном фасаде возвращена терраса второго этажа. Ночное окружение значительно темнее. Остальная архитектура и управление светом сохранены.
+
+[Крыша бассейна днём](Aloft_v11_pool_day.png) · [Подсветка бассейна ночью](Aloft_v11_pool_night.png) · [Крыша со двора](Aloft_v11_roof_day.png) · [Неон со двора](Aloft_v11_roof_night.png) · [Терраса](Aloft_v11_terrace.png) · [День](Aloft_v11_day.png) · [Ночь](Aloft_v11_night.png)
+
+Распакуйте архив и откройте `Aloft_Interactive_v11.html` в Chrome или Edge. Для Blender откройте `Aloft_corrected_v11.blend`. [Описание правок](Aloft_v11_status.md) · [Проверки](Aloft_v11_validation.json)
+
 ## V10 — интерактивная световая мастерская
 
 **[Скачать просмотрщик ZIP](Aloft_Interactive_v10.zip)** · [HTML отдельно](Aloft_Interactive_v10.html) · [Панель света](Aloft_v10_workbench.png) · [Общий вид](Aloft_v10_overview.png)

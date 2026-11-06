@@ -7,7 +7,7 @@ async function settled(){await page.evaluate(()=>new Promise(r=>requestAnimation
 async function input(id,value){await page.locator('#'+id).evaluate((e,v)=>{e.value=v;e.dispatchEvent(new Event('input',{bubbles:true}));},String(value));await settled();}
 async function load(){await page.waitForFunction(()=>window.__aloft?.getStats().frame>=1||document.getElementById('error')?.hidden===false,null,{timeout:90000});assert.equal(await page.locator('#error').isVisible(),false,await page.locator('#error').textContent());await settled();}
 try{
- await page.goto('http://127.0.0.1:8080');await load();result.initial=await stats();assert.equal(result.initial.architecture,92);assert.equal(result.initial.neon,61);assert.equal(result.initial.logicalPixels,1834);
+ await page.goto('http://127.0.0.1:8080');await load();result.initial=await stats();assert.equal(result.initial.architecture,94);assert.equal(result.initial.neon,65);assert.equal(result.initial.logicalPixels,1834);
  if((await get()).playing)await page.locator('#play').click();await settled();await page.evaluate(()=>window.__aloft.setTime(2));await settled();await page.screenshot({path:'test-output/night.png'});
  const paused=(await stats()).elapsed;await page.waitForTimeout(180);assert.equal((await stats()).elapsed,paused);await page.locator('#play').click();await page.waitForFunction(t=>window.__aloft.getStats().elapsed>t+.02,paused);await page.locator('#play').click();result.play_pause=true;console.log("PASS play_pause");
  await page.locator('#quality').selectOption('fast');await settled();assert.equal((await stats()).composer,false);

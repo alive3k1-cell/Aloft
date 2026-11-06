@@ -1,0 +1,485 @@
+{
+  "version": 11,
+  "geometry": {
+    "roof_chain_connected": true,
+    "original_roof_endpoints_preserved": true,
+    "source_segments": 61,
+    "supplemental_visual_joins": 4,
+    "preview_pixels": 1834,
+    "maximum_emitter_vertex_distance_to_installed_centerline_m": 0.009002277510430977,
+    "roof_aperture_open": true,
+    "input_blend_sha256_unchanged": true,
+    "geometry": {
+      "source_blend_sha256": "1fc6d7e1683f9dbd3fd41ddd5eba0d2e9fa1ebbb5e218dfa8fd04f2d9d888d66",
+      "architecture_before": 92,
+      "architecture_after": 94,
+      "geometry_changed": [
+        "ROOF_CANTILEVER_WITH_OPENING",
+        "ROOF_TERRACE_COLUMN_1",
+        "ROOF_TERRACE_COLUMN_2",
+        "ROOF_TERRACE_COLUMN_3",
+        "ROOF_TERRACE_COLUMN_4",
+        "ROOF_TERRACE_COLUMN_5",
+        "ROOF_TERRACE_COLUMN_6",
+        "ROOF_TERRACE_COLUMN_7",
+        "ROOF_TERRACE_COLUMN_8",
+        "ROOF_TERRACE_COLUMN_9",
+        "ROOF_TERRACE_COLUMN_10",
+        "ROOF_TERRACE_COLUMN_11"
+      ],
+      "removed_roof_objects": [
+        "ROOF_CONTINUOUS_SOFFIT",
+        "ROOF_CONTINUOUS_FASCIA",
+        "ROOF_SKYLIGHT_PERIMETER_FRAME",
+        "ROOF_SKYLIGHT_GLASS_0",
+        "ROOF_SKYLIGHT_GLASS_1",
+        "ROOF_SKYLIGHT_GLASS_2",
+        "ROOF_SKYLIGHT_GLASS_3",
+        "ROOF_SKYLIGHT_BEARING_MULLIONS",
+        "ROOF_LOUVRE_CASSETTE_FRONT",
+        "ROOF_LOUVRE_SUPPORTS_FRONT",
+        "ROOF_LOUVRE_CASSETTE_REAR_WEST",
+        "ROOF_LOUVRE_SUPPORTS_REAR_WEST",
+        "ROOF_LOUVRE_CASSETTE_REAR_MIDDLE",
+        "ROOF_LOUVRE_SUPPORTS_REAR_MIDDLE",
+        "ROOF_LOUVRE_CASSETTE_REAR_EAST",
+        "ROOF_LOUVRE_SUPPORTS_REAR_EAST",
+        "ROOF_LOUVRE_CASSETTE_COURTYARD_RETURN",
+        "ROOF_LOUVRE_SUPPORTS_COURTYARD_RETURN"
+      ],
+      "added_objects": [
+        "F01_SECOND_FLOOR_TERRACE_GLASS",
+        "F01_SECOND_FLOOR_TERRACE_RAIL",
+        "F01_SECOND_FLOOR_TERRACE_SLAB",
+        "F01_SECOND_FLOOR_TERRACE_SUPPORTS",
+        "ROOF_LOUVRE_FRONT_BLADE_1",
+        "ROOF_LOUVRE_FRONT_BLADE_2",
+        "ROOF_LOUVRE_FRONT_BLADE_3",
+        "ROOF_LOUVRE_FRONT_BLADE_4",
+        "ROOF_LOUVRE_FRONT_BLADE_5",
+        "ROOF_LOUVRE_FRONT_BLADE_6",
+        "ROOF_LOUVRE_FRONT_RECESSED_SUPPORTS",
+        "ROOF_LOUVRE_REAR_BLADE_1",
+        "ROOF_LOUVRE_REAR_BLADE_2",
+        "ROOF_LOUVRE_REAR_BLADE_3",
+        "ROOF_LOUVRE_REAR_BLADE_4",
+        "ROOF_LOUVRE_REAR_BLADE_5",
+        "ROOF_LOUVRE_REAR_BLADE_6",
+        "ROOF_LOUVRE_REAR_BLADE_7",
+        "ROOF_LOUVRE_REAR_BLADE_8",
+        "ROOF_LOUVRE_REAR_RECESSED_SUPPORTS"
+      ],
+      "unchanged_geometry_count": 62,
+      "unexpected_geometry_changes": [],
+      "original_CAD_curves_unchanged": true,
+      "source_segments": 61,
+      "visual_joins": [
+        {
+          "id": "VISUAL-WEST_CORNER",
+          "group": "ROOF",
+          "points_m": [
+            [
+              -1.7999999523162842,
+              15.600000381469727,
+              46.470001220703125
+            ],
+            [
+              -1.7999999523162842,
+              15.649200439453125,
+              46.470001220703125
+            ]
+          ],
+          "length_m": 0.04920005765065687,
+          "status": "User V11: continuous roof line at missing corners; no CAD quantity assigned"
+        },
+        {
+          "id": "VISUAL-COURTYARD_STEP",
+          "group": "ROOF",
+          "points_m": [
+            [
+              18.033700942993164,
+              15.599991798400879,
+              46.470001220703125
+            ],
+            [
+              18.149826049804688,
+              15.600000381469727,
+              46.470001220703125
+            ],
+            [
+              18.149826049804688,
+              13.44999885559082,
+              46.470001220703125
+            ]
+          ],
+          "length_m": 2.266126646674432,
+          "status": "User V11: continuous roof line at missing corners; no CAD quantity assigned"
+        },
+        {
+          "id": "VISUAL-COURTYARD_CORNER",
+          "group": "ROOF",
+          "points_m": [
+            [
+              36.98452377319336,
+              13.44999885559082,
+              46.470001220703125
+            ],
+            [
+              37.049739837646484,
+              13.44999885559082,
+              46.470001220703125
+            ],
+            [
+              37.049739837646484,
+              13.448660850524902,
+              46.470001220703125
+            ]
+          ],
+          "length_m": 0.06655406951904297,
+          "status": "User V11: continuous roof line at missing corners; no CAD quantity assigned"
+        },
+        {
+          "id": "VISUAL-EAST_CORNER",
+          "group": "ROOF",
+          "points_m": [
+            [
+              37.049739837646484,
+              -0.5517390370368958,
+              46.470001220703125
+            ],
+            [
+              37.049739837646484,
+              -0.6000000834465027,
+              46.470001220703125
+            ]
+          ],
+          "length_m": 0.04826104600546323,
+          "status": "User V11: continuous roof line at missing corners; no CAD quantity assigned"
+        }
+      ],
+      "preview_pixels_unchanged": 1834,
+      "source_length_m_unchanged": 305.67437636308864,
+      "pool_underside_clearance_samples": 21,
+      "pool_clearance_pass": true,
+      "porcelain_linear_colors": {
+        "MAT_FACADE_GREY_LIGHT": [
+          0.28,
+          0.295,
+          0.31
+        ],
+        "MAT_FACADE_GREY_MEDIUM": [
+          0.16,
+          0.175,
+          0.19
+        ],
+        "MAT_FACADE_DARK_PLINTH": [
+          0.115,
+          0.125,
+          0.135
+        ]
+      },
+      "roof_linear_color": [
+        0.012000000104308128,
+        0.014000000432133675,
+        0.017999999225139618,
+        1.0
+      ],
+      "second_floor_terrace_top_m": 5.25,
+      "night_daylight_preserved": true
+    }
+  },
+  "browser": {
+    "initial": {
+      "architecture": 94,
+      "neon": 65,
+      "sourceSegments": 61,
+      "supplementalSegments": 4,
+      "logicalPixels": 1834,
+      "cameraType": "perspective",
+      "cameraPosition": [
+        -61.04236040724206,
+        53.014607036980024,
+        -94.03797829614805
+      ],
+      "navigation": "orbit",
+      "pointerLocked": false,
+      "pressedKeys": [],
+      "elapsed": 0,
+      "quality": "fast",
+      "ao": false,
+      "composer": false,
+      "sceneChildren": 204,
+      "frame": 2
+    },
+    "play_pause": true,
+    "environment": true,
+    "eight_views": true,
+    "six_reference_cameras": true,
+    "saved_ortho_view": true,
+    "mouse_orbit": true,
+    "walk_pointer_lock_and_movement": true,
+    "six_scenarios": true,
+    "rgbw_and_master": true,
+    "architecture_modes": true,
+    "three_quality_levels": true,
+    "settings_export_import_persistence": true,
+    "reject_foreign_settings": true,
+    "png_capture": true,
+    "fullscreen": true,
+    "external_asset_requests": 0,
+    "self_contained_document_offline": true,
+    "mobile_panel": true,
+    "browser_errors": [],
+    "chromium": "155.0.8059.79",
+    "file_navigation": "Not exercised: blocked by managed browser policy. HTTP and offline document execution passed."
+  },
+  "night": {
+    "daylight_intensities_unchanged": true,
+    "night_environment_maximum": 0.008,
+    "sky_patch_mean_sRGB_0_255": {
+      "before": 54.99525,
+      "after": 0.09247916666666665
+    },
+    "night_readability_visual_review": true
+  },
+  "review": {
+    "result": {
+      "pool": {
+        "stats": {
+          "architecture": 94,
+          "neon": 65,
+          "sourceSegments": 61,
+          "supplementalSegments": 4,
+          "logicalPixels": 1834,
+          "cameraType": "perspective",
+          "cameraPosition": [
+            -18,
+            41,
+            -24.2
+          ],
+          "navigation": "orbit",
+          "pointerLocked": false,
+          "pressedKeys": [],
+          "elapsed": 0,
+          "quality": "balanced",
+          "ao": false,
+          "composer": true,
+          "sceneChildren": 204,
+          "frame": 4
+        },
+        "environment": {
+          "day": 1,
+          "sun": 2.6,
+          "hemisphere": 0.85,
+          "fill": 0.55,
+          "environment": 0.54
+        }
+      },
+      "courtyard": {
+        "stats": {
+          "architecture": 94,
+          "neon": 65,
+          "sourceSegments": 61,
+          "supplementalSegments": 4,
+          "logicalPixels": 1834,
+          "cameraType": "perspective",
+          "cameraPosition": [
+            -3.0000000000000036,
+            60,
+            23
+          ],
+          "navigation": "orbit",
+          "pointerLocked": false,
+          "pressedKeys": [],
+          "elapsed": 0,
+          "quality": "balanced",
+          "ao": false,
+          "composer": true,
+          "sceneChildren": 204,
+          "frame": 4
+        },
+        "environment": {
+          "day": 1,
+          "sun": 2.6,
+          "hemisphere": 0.85,
+          "fill": 0.55,
+          "environment": 0.54
+        }
+      },
+      "terrace": {
+        "stats": {
+          "architecture": 94,
+          "neon": 65,
+          "sourceSegments": 61,
+          "supplementalSegments": 4,
+          "logicalPixels": 1834,
+          "cameraType": "perspective",
+          "cameraPosition": [
+            -6.999999999999986,
+            12.000000000000002,
+            -54.00000000000001
+          ],
+          "navigation": "orbit",
+          "pointerLocked": false,
+          "pressedKeys": [],
+          "elapsed": 0,
+          "quality": "balanced",
+          "ao": false,
+          "composer": true,
+          "sceneChildren": 204,
+          "frame": 4
+        },
+        "environment": {
+          "day": 1,
+          "sun": 2.6,
+          "hemisphere": 0.85,
+          "fill": 0.55,
+          "environment": 0.54
+        }
+      },
+      "general_day": {
+        "stats": {
+          "architecture": 94,
+          "neon": 65,
+          "sourceSegments": 61,
+          "supplementalSegments": 4,
+          "logicalPixels": 1834,
+          "cameraType": "perspective",
+          "cameraPosition": [
+            -61.04236040724206,
+            53.014607036980024,
+            -94.03797829614805
+          ],
+          "navigation": "orbit",
+          "pointerLocked": false,
+          "pressedKeys": [],
+          "elapsed": 0,
+          "quality": "balanced",
+          "ao": false,
+          "composer": true,
+          "sceneChildren": 204,
+          "frame": 4
+        },
+        "environment": {
+          "day": 1,
+          "sun": 2.6,
+          "hemisphere": 0.85,
+          "fill": 0.55,
+          "environment": 0.54
+        }
+      },
+      "general_night": {
+        "stats": {
+          "architecture": 94,
+          "neon": 65,
+          "sourceSegments": 61,
+          "supplementalSegments": 4,
+          "logicalPixels": 1834,
+          "cameraType": "perspective",
+          "cameraPosition": [
+            -61.04236040724206,
+            53.014607036980024,
+            -94.03797829614805
+          ],
+          "navigation": "orbit",
+          "pointerLocked": false,
+          "pressedKeys": [],
+          "elapsed": 0,
+          "quality": "balanced",
+          "ao": false,
+          "composer": true,
+          "sceneChildren": 204,
+          "frame": 4
+        },
+        "environment": {
+          "day": 0,
+          "sun": 0.004,
+          "hemisphere": 0.008,
+          "fill": 0.004,
+          "environment": 0.004
+        }
+      },
+      "pool_night": {
+        "stats": {
+          "architecture": 94,
+          "neon": 65,
+          "sourceSegments": 61,
+          "supplementalSegments": 4,
+          "logicalPixels": 1834,
+          "cameraType": "perspective",
+          "cameraPosition": [
+            -18,
+            41,
+            -24.2
+          ],
+          "navigation": "orbit",
+          "pointerLocked": false,
+          "pressedKeys": [],
+          "elapsed": 0,
+          "quality": "balanced",
+          "ao": false,
+          "composer": true,
+          "sceneChildren": 204,
+          "frame": 9
+        },
+        "environment": {
+          "day": 0,
+          "sun": 0.004,
+          "hemisphere": 0.008,
+          "fill": 0.004,
+          "environment": 0.004
+        }
+      },
+      "courtyard_night": {
+        "stats": {
+          "architecture": 94,
+          "neon": 65,
+          "sourceSegments": 61,
+          "supplementalSegments": 4,
+          "logicalPixels": 1834,
+          "cameraType": "perspective",
+          "cameraPosition": [
+            -3.0000000000000036,
+            60,
+            23
+          ],
+          "navigation": "orbit",
+          "pointerLocked": false,
+          "pressedKeys": [],
+          "elapsed": 0,
+          "quality": "balanced",
+          "ao": false,
+          "composer": true,
+          "sceneChildren": 204,
+          "frame": 4
+        },
+        "environment": {
+          "day": 0,
+          "sun": 0.004,
+          "hemisphere": 0.008,
+          "fill": 0.004,
+          "environment": 0.004
+        }
+      }
+    },
+    "errors": []
+  },
+  "artifacts": {
+    "Aloft_Interactive_v11.html": {
+      "bytes": 9175835,
+      "sha256": "2a35aa7b62ef2b0b7c7c96e388744f5c928e52cba9c6f0958b766c24d7960bdd"
+    },
+    "Aloft_Interactive_v11.zip": {
+      "bytes": 3116878,
+      "sha256": "8bd0913688353b12167e9186606cda638525aac5494d7527615ca2cd11ddce5f"
+    },
+    "Aloft_Blender_v11.zip": {
+      "bytes": 1791613,
+      "sha256": "abcf5d6e9b48fa0a2e39a33de15521d9c2d81877daa88616460f9cf55686feeb"
+    },
+    "aloft_v11.glb": {
+      "bytes": 4635160,
+      "sha256": "021891e3bbc4616c07dad42032abd978d7ee5b20be52d0509db4487457124e4d"
+    }
+  }
+}
