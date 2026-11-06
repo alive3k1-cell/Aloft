@@ -1,0 +1,313 @@
+{
+  "version": 12,
+  "geometry": {
+    "retained_gltf_mesh_geometry_and_material_assignment_identical": 174,
+    "removed_meshes": [
+      "F01_GROUND_TERRACE_END",
+      "F01_GROUND_TERRACE_END_GLASS",
+      "F01_GROUND_TERRACE_RAIL",
+      "F01_GROUND_TERRACE_RAIL_GLASS"
+    ],
+    "solid_materials_opaque": true,
+    "native": {
+      "source_sha256": "2b8f4fd802437f90176b44316ef2f08ce15fdf78caea2b02399ab080ac2e2d32",
+      "removed_ground_partition": [
+        "F01_GROUND_TERRACE_RAIL",
+        "F01_GROUND_TERRACE_RAIL_GLASS",
+        "F01_GROUND_TERRACE_END",
+        "F01_GROUND_TERRACE_END_GLASS"
+      ],
+      "retained_architecture_count": 90,
+      "retained_geometry_and_material_assignments_identical": true,
+      "architecture_before": 94,
+      "architecture_after": 90,
+      "source_neon_and_visual_joins_unchanged": true,
+      "native_area_proxies_diffuse_only": true,
+      "all_retained_meshes_curves_transforms_and_diffuse_materials_identical": true,
+      "retained_mesh_and_curve_objects_checked": 262
+    },
+    "spill": {
+      "method": "static_visibility_5_samples_per_strip",
+      "proxy_count": 11,
+      "specular_proxy_contribution": false,
+      "architecture_vertices": 82755,
+      "cached_receiver_points": 31154,
+      "ray_count": 1586430,
+      "blocked_rays": 1561946,
+      "probes_0_255": {
+        "pool_inner_floor": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          208,
+          107,
+          255
+        ],
+        "courtyard_rear_wall": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "upper_front_lit_surface": [
+          0,
+          0,
+          0,
+          0,
+          255,
+          255,
+          255,
+          255,
+          0,
+          0,
+          0
+        ]
+      },
+      "seconds": 7.88,
+      "geometry_positions_indices_materials_unchanged": true,
+      "limits": "Static opaque-architecture visibility, five weighted samples per strip, interpolated at vertices; illustrative fill, not a photometric calculation."
+    }
+  },
+  "browser": {
+    "initial": {
+      "architecture": 90,
+      "neon": 65,
+      "sourceSegments": 61,
+      "spillOcclusion": "static_visibility_5_samples_per_strip",
+      "supplementalSegments": 4,
+      "logicalPixels": 1834,
+      "cameraType": "perspective",
+      "cameraPosition": [
+        -61.04236040724206,
+        53.014607036980024,
+        -94.03797829614805
+      ],
+      "navigation": "orbit",
+      "pointerLocked": false,
+      "pressedKeys": [],
+      "elapsed": 0,
+      "quality": "fast",
+      "ao": false,
+      "composer": false,
+      "sceneChildren": 200,
+      "frame": 2
+    },
+    "play_pause": true,
+    "environment": true,
+    "eight_views": true,
+    "six_reference_cameras": true,
+    "saved_ortho_view": true,
+    "mouse_orbit": true,
+    "walk_pointer_lock_and_movement": true,
+    "six_scenarios": true,
+    "rgbw_and_master": true,
+    "architecture_modes": true,
+    "three_quality_levels": true,
+    "settings_export_import_persistence": true,
+    "reject_foreign_settings": true,
+    "png_capture": true,
+    "fullscreen": true,
+    "external_asset_requests": 0,
+    "self_contained_document_offline": true,
+    "mobile_panel": true,
+    "browser_errors": [],
+    "chromium": "155.0.8059.79",
+    "file_navigation": "Not exercised: blocked by managed browser policy. HTTP and offline document execution passed."
+  },
+  "review": {
+    "result": {
+      "twilight_1835": {
+        "stats": {
+          "architecture": 90,
+          "neon": 65,
+          "sourceSegments": 61,
+          "spillOcclusion": "static_visibility_5_samples_per_strip",
+          "supplementalSegments": 4,
+          "logicalPixels": 1834,
+          "cameraType": "perspective",
+          "cameraPosition": [
+            -61.04236040724206,
+            53.014607036980024,
+            -94.03797829614805
+          ],
+          "navigation": "orbit",
+          "pointerLocked": false,
+          "pressedKeys": [],
+          "elapsed": 0,
+          "quality": "balanced",
+          "ao": false,
+          "composer": true,
+          "sceneChildren": 200,
+          "frame": 4
+        },
+        "environment": {
+          "day": 0.3327163420572137,
+          "sun": 0.012,
+          "hemisphere": 0.3328551650943406,
+          "fill": 0.2130217527388929,
+          "environment": 0.20302175273889292
+        }
+      },
+      "night": {
+        "stats": {
+          "architecture": 90,
+          "neon": 65,
+          "sourceSegments": 61,
+          "spillOcclusion": "static_visibility_5_samples_per_strip",
+          "supplementalSegments": 4,
+          "logicalPixels": 1834,
+          "cameraType": "perspective",
+          "cameraPosition": [
+            -61.04236040724206,
+            53.014607036980024,
+            -94.03797829614805
+          ],
+          "navigation": "orbit",
+          "pointerLocked": false,
+          "pressedKeys": [],
+          "elapsed": 0,
+          "quality": "balanced",
+          "ao": false,
+          "composer": true,
+          "sceneChildren": 200,
+          "frame": 4
+        },
+        "environment": {
+          "day": 0,
+          "sun": 0.012,
+          "hemisphere": 0.075,
+          "fill": 0.045,
+          "environment": 0.035
+        }
+      },
+      "pool": {
+        "stats": {
+          "architecture": 90,
+          "neon": 65,
+          "sourceSegments": 61,
+          "spillOcclusion": "static_visibility_5_samples_per_strip",
+          "supplementalSegments": 4,
+          "logicalPixels": 1834,
+          "cameraType": "perspective",
+          "cameraPosition": [
+            -18,
+            48.999999999999986,
+            9
+          ],
+          "navigation": "orbit",
+          "pointerLocked": false,
+          "pressedKeys": [],
+          "elapsed": 0,
+          "quality": "balanced",
+          "ao": false,
+          "composer": true,
+          "sceneChildren": 200,
+          "frame": 4
+        },
+        "environment": {
+          "day": 0,
+          "sun": 0.012,
+          "hemisphere": 0.075,
+          "fill": 0.045,
+          "environment": 0.035
+        }
+      },
+      "pool_cinematic": {
+        "stats": {
+          "architecture": 90,
+          "neon": 65,
+          "sourceSegments": 61,
+          "spillOcclusion": "static_visibility_5_samples_per_strip",
+          "supplementalSegments": 4,
+          "logicalPixels": 1834,
+          "cameraType": "perspective",
+          "cameraPosition": [
+            -18,
+            48.999999999999986,
+            9
+          ],
+          "navigation": "orbit",
+          "pointerLocked": false,
+          "pressedKeys": [],
+          "elapsed": 0,
+          "quality": "cinematic",
+          "ao": true,
+          "composer": true,
+          "sceneChildren": 200,
+          "frame": 4
+        },
+        "environment": {
+          "day": 0,
+          "sun": 0.012,
+          "hemisphere": 0.075,
+          "fill": 0.045,
+          "environment": 0.035
+        }
+      },
+      "terrace": {
+        "stats": {
+          "architecture": 90,
+          "neon": 65,
+          "sourceSegments": 61,
+          "spillOcclusion": "static_visibility_5_samples_per_strip",
+          "supplementalSegments": 4,
+          "logicalPixels": 1834,
+          "cameraType": "perspective",
+          "cameraPosition": [
+            -6.999999999999986,
+            12.000000000000002,
+            -54.00000000000001
+          ],
+          "navigation": "orbit",
+          "pointerLocked": false,
+          "pressedKeys": [],
+          "elapsed": 0,
+          "quality": "balanced",
+          "ao": false,
+          "composer": true,
+          "sceneChildren": 200,
+          "frame": 4
+        },
+        "environment": {
+          "day": 1,
+          "sun": 2.6,
+          "hemisphere": 0.85,
+          "fill": 0.55,
+          "environment": 0.54
+        }
+      }
+    },
+    "errors": []
+  },
+  "environment_state_tests": "passed: smooth twilight after18:35, moderate night, original daylight",
+  "artifacts": {
+    "Aloft_Interactive_v12.html": {
+      "bytes": 10516038,
+      "sha256": "31246d7c6ade8d13cd8f215aaa10f274c00187816139b8495103081fa568385d"
+    },
+    "Aloft_Interactive_v12.zip": {
+      "bytes": 3143874,
+      "sha256": "9ded611219e9e4cc8cda13e17be551b8b58630dd7f5ce9fccccceceef9717721"
+    },
+    "Aloft_Blender_v12.zip": {
+      "bytes": 1774614,
+      "sha256": "f4e4c7cda0672290def7e28d6f37c01e447267309d4f4b3002e33a039cf0368f"
+    },
+    "aloft_v12.glb": {
+      "bytes": 5638020,
+      "sha256": "b8b6f69b577c8d2975dfb51e2b933d282d00cb72c4ec765298429da2fd8d6169"
+    }
+  }
+}

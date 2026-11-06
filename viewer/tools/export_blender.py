@@ -2,9 +2,9 @@ import bpy,json,math,hashlib,os
 from pathlib import Path
 from mathutils import Vector
 R=Path(os.environ.get('ALMAZOV_WORKDIR','/workspace/ALMAZOV_LIGHT'));O=Path(__file__).resolve().parents[1]/'assets';O.mkdir(parents=True,exist_ok=True)
-source=R/'model/v11/Aloft_corrected_v11.blend';bpy.ops.wm.open_mainfile(filepath=str(source));s=bpy.context.scene
+source=R/'model/v12/Aloft_corrected_v12.blend';bpy.ops.wm.open_mainfile(filepath=str(source));s=bpy.context.scene
 def web(v):return [float(v[0]),float(v[2]),-float(v[1])]
-metadata={'version':11,'project':'Aloft · Ташкент','source_blend_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'units':'m','basis':'Blender XYZ -> WebGL X,Z,-Y','groups':json.load(open(R/'model/v07/lighting_geometry.json'))['summary'],'referenceCameras':[]}
+metadata={'version':12,'project':'Aloft · Ташкент','source_blend_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'units':'m','basis':'Blender XYZ -> WebGL X,Z,-Y','groups':json.load(open(R/'model/v07/lighting_geometry.json'))['summary'],'referenceCameras':[]}
 center=Vector((26,16,23))
 for n in range(1,7):
  cam=bpy.data.objects['REFERENCE_'+str(n)];d=json.load(open(R/f'model/v07/camera_reference{n}.json'));p=cam.matrix_world.translation;direction=cam.matrix_world.to_quaternion()@Vector((0,0,-1));distance=max(10,(center-p).dot(direction))
@@ -37,9 +37,9 @@ for ob in list(s.objects):
 bpy.ops.object.select_all(action='DESELECT')
 for ob in arch+site+emit+channels:ob.hide_select=False;ob.select_set(True)
 bpy.context.view_layer.objects.active=arch[0]
-args={'filepath':str(O/'aloft_v11.glb'),'export_format':'GLB','use_selection':True,'export_apply':True,'export_extras':True,'export_cameras':False,'export_lights':False,'export_texcoords':True}
+args={'filepath':str(O/'aloft_v12.glb'),'export_format':'GLB','use_selection':True,'export_apply':True,'export_extras':True,'export_cameras':False,'export_lights':False,'export_texcoords':True}
 props=bpy.ops.export_scene.gltf.get_rna_type().properties.keys()
 if 'export_gpu_instances' in props:args['export_gpu_instances']=True
 bpy.ops.export_scene.gltf(**args)
-metadata['architecture_meshes']=len(arch);metadata['source_segments']=61;metadata['visible_segments']=len(emit);metadata['logical_pixels']=1834;metadata['site_status']='Illustrative presentation context, not a survey';metadata['white_cct_status']='Unconfirmed; viewer Kelvin control is a visual approximation';metadata['day_time_status']='Visual sky control, not a georeferenced solar calculation';metadata['glb_sha256']=hashlib.sha256((O/'aloft_v11.glb').read_bytes()).hexdigest()
+metadata['architecture_meshes']=len(arch);metadata['source_segments']=61;metadata['visible_segments']=len(emit);metadata['logical_pixels']=1834;metadata['site_status']='Illustrative presentation context, not a survey';metadata['white_cct_status']='Unconfirmed; viewer Kelvin control is a visual approximation';metadata['day_time_status']='Visual sky control, not a georeferenced solar calculation';metadata['glb_sha256']=hashlib.sha256((O/'aloft_v12.glb').read_bytes()).hexdigest()
 (O/'scene.json').write_text(json.dumps(metadata,ensure_ascii=False,indent=2));print(json.dumps({k:metadata[k] for k in ['architecture_meshes','source_segments','logical_pixels','glb_sha256']},indent=2))

@@ -4,7 +4,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 const root=import.meta.dirname;const metadata=JSON.parse(await fs.readFile(path.join(root,'assets/scene.json'),'utf8'));
 const photos={};for(const c of metadata.referenceCameras)photos[c.id]='data:image/jpeg;base64,'+(await fs.readFile(path.join(root,'..',c.image))).toString('base64');
-const data={metadata,photos,model:(await fs.readFile(path.join(root,'assets/aloft_v11.glb'))).toString('base64')};
+const data={metadata,photos,model:(await fs.readFile(path.join(root,'assets/aloft_v12.glb'))).toString('base64')};
 const result=await build({entryPoints:[path.join(root,'src/app.js')],bundle:true,format:'iife',target:['chrome110','firefox115','safari17'],minify:true,write:false,legalComments:'eof'});
 const css=await fs.readFile(path.join(root,'src/style.css'),'utf8');let html=await fs.readFile(path.join(root,'index.html'),'utf8');
 html=html.replace('<!--STYLE-->',()=>'<style>'+css+'</style>').replace('<!--ASSETS-->',()=>JSON.stringify(data).replaceAll('<','\\u003c')).replace('<!--SCRIPT-->',()=>'<script>'+result.outputFiles[0].text.replaceAll('</script','<\\/script')+'</script>');

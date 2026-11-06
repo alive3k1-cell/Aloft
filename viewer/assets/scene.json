@@ -1,7 +1,7 @@
 {
-  "version": 11,
+  "version": 12,
   "project": "Aloft · Ташкент",
-  "source_blend_sha256": "2b8f4fd802437f90176b44316ef2f08ce15fdf78caea2b02399ab080ac2e2d32",
+  "source_blend_sha256": "78eb48474ca088710de47865e758f2dfe55ab3bf456bdd1b3d93c6323b853f63",
   "units": "m",
   "basis": "Blender XYZ -> WebGL X,Z,-Y",
   "groups": {
@@ -1561,12 +1561,24 @@
       "height": 0.07500000298023224
     }
   ],
-  "architecture_meshes": 94,
+  "architecture_meshes": 90,
   "source_segments": 61,
   "visible_segments": 65,
   "logical_pixels": 1834,
   "site_status": "Illustrative presentation context, not a survey",
   "white_cct_status": "Unconfirmed; viewer Kelvin control is a visual approximation",
   "day_time_status": "Visual sky control, not a georeferenced solar calculation",
-  "glb_sha256": "021891e3bbc4616c07dad42032abd978d7ee5b20be52d0509db4487457124e4d"
+  "glb_sha256": "b8b6f69b577c8d2975dfb51e2b933d282d00cb72c4ec765298429da2fd8d6169",
+  "spill_occlusion": {
+    "method": "static_visibility_5_samples_per_strip",
+    "proxy_count": 11,
+    "specular_proxy_contribution": false,
+    "architecture_vertices": 82755,
+    "cached_receiver_points": 31154,
+    "ray_count": 1586430,
+    "blocked_rays": 1561946,
+    "seconds": 7.88,
+    "geometry_positions_indices_materials_unchanged": true,
+    "limits": "Static opaque-architecture visibility, five weighted samples per strip, interpolated at vertices; illustrative fill, not a photometric calculation."
+  }
 }

@@ -1,5 +1,15 @@
 # Aloft — архитектура и RGBW-свет
 
+## V12 — мягкая ночь и исправление просвечивания света
+
+**[Скачать просмотрщик V12](Aloft_Interactive_v12.zip)** · [HTML отдельно](Aloft_Interactive_v12.html) · [Blender V12](Aloft_Blender_v12.zip)
+
+После18:35 переход к ночи плавный, здание остаётся читаемым. Вспомогательная подсветка учитывает стены и перекрытия; ложные яркие блики на стекле убраны. Нижняя стеклянная перегородка первого этажа удалена вместе с рамками. Остальная принятая архитектура, материалы и все линии неона сохранены.
+
+[Сумерки18:35](Aloft_v12_twilight_1835.png) · [Ночь](Aloft_v12_night.png) · [Крыша](Aloft_v12_pool_cinematic.png) · [Первый этаж](Aloft_v12_terrace.png) · [Описание](Aloft_v12_status.md) · [Проверки](Aloft_v12_validation.json)
+
+Распакуйте архив и откройте `Aloft_Interactive_v12.html` в Chrome или Edge. Для Blender используйте `Aloft_corrected_v12.blend`.
+
 ## V11 — исправления крыши, террасы и ночного света
 
 **[Скачать просмотрщик V11](Aloft_Interactive_v11.zip)** · [HTML отдельно](Aloft_Interactive_v11.html) · [Blender V11](Aloft_Blender_v11.zip)
