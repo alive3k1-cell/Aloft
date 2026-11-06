@@ -1,0 +1,313 @@
+{
+  "version": 13,
+  "native": {
+    "source_blend_sha256": "78eb48474ca088710de47865e758f2dfe55ab3bf456bdd1b3d93c6323b853f63",
+    "output_blend_sha256": "a687209b7e16f03621dc77f5ef8e635f05d8a2bdd7c9313ba71e368235352815",
+    "retained_mesh_curve_geometry_and_material_objects": 262,
+    "geometry_and_materials_identical": true,
+    "disabled_facade_proxy_lights": [
+      "SPILL_BIG_FRAME_0",
+      "SPILL_BIG_FRAME_1",
+      "SPILL_BIG_FRAME_2",
+      "SPILL_BIG_FRAME_3",
+      "SPILL_UPPER_FRAME_0",
+      "SPILL_UPPER_FRAME_1",
+      "SPILL_UPPER_FRAME_2",
+      "SPILL_UPPER_FRAME_3"
+    ],
+    "source_neon_unchanged": true,
+    "pool_lighting_unchanged": true,
+    "night_environment_unchanged": true
+  },
+  "browser": {
+    "result": {
+      "fast": {
+        "stats": {
+          "architecture": 90,
+          "neon": 65,
+          "sourceSegments": 61,
+          "spillOcclusion": "static_visibility_5_samples_per_strip",
+          "supplementalSegments": 4,
+          "logicalPixels": 1834,
+          "cameraType": "ortho",
+          "cameraPosition": [
+            25.99999999999999,
+            23.50000000000001,
+            -120
+          ],
+          "navigation": "orbit",
+          "pointerLocked": false,
+          "pressedKeys": [],
+          "elapsed": 0,
+          "quality": "fast",
+          "ao": false,
+          "composer": false,
+          "sceneChildren": 200,
+          "frame": 4
+        },
+        "environment": {
+          "day": 0,
+          "sun": 0.012,
+          "hemisphere": 0.075,
+          "fill": 0.045,
+          "environment": 0.035
+        },
+        "facadeSpillZero": true
+      },
+      "balanced": {
+        "stats": {
+          "architecture": 90,
+          "neon": 65,
+          "sourceSegments": 61,
+          "spillOcclusion": "static_visibility_5_samples_per_strip",
+          "supplementalSegments": 4,
+          "logicalPixels": 1834,
+          "cameraType": "ortho",
+          "cameraPosition": [
+            25.99999999999999,
+            23.50000000000001,
+            -120
+          ],
+          "navigation": "orbit",
+          "pointerLocked": false,
+          "pressedKeys": [],
+          "elapsed": 0,
+          "quality": "balanced",
+          "ao": false,
+          "composer": true,
+          "sceneChildren": 200,
+          "frame": 4
+        },
+        "environment": {
+          "day": 0,
+          "sun": 0.012,
+          "hemisphere": 0.075,
+          "fill": 0.045,
+          "environment": 0.035
+        },
+        "facadeSpillZero": true
+      },
+      "poolFillRetained": true,
+      "cinematic": {
+        "stats": {
+          "architecture": 90,
+          "neon": 65,
+          "sourceSegments": 61,
+          "spillOcclusion": "static_visibility_5_samples_per_strip",
+          "supplementalSegments": 4,
+          "logicalPixels": 1834,
+          "cameraType": "ortho",
+          "cameraPosition": [
+            25.99999999999999,
+            23.50000000000001,
+            -120
+          ],
+          "navigation": "orbit",
+          "pointerLocked": false,
+          "pressedKeys": [],
+          "elapsed": 0,
+          "quality": "cinematic",
+          "ao": true,
+          "composer": true,
+          "sceneChildren": 200,
+          "frame": 4
+        },
+        "environment": {
+          "day": 0,
+          "sun": 0.012,
+          "hemisphere": 0.075,
+          "fill": 0.045,
+          "environment": 0.035
+        },
+        "facadeSpillZero": true
+      }
+    },
+    "errors": []
+  },
+  "facade_comparison": {
+    "conditions": "23:30, lime, static reference, exposure 0.4, bloom 0; neon on/off",
+    "method": "Absolute RGB difference in facade regions, excluding emitting lines; 8-bit channels. Small edge differences from antialiasing/transmission are allowed.",
+    "regions_native_xz": {
+      "large_left": [
+        50.2,
+        51.3,
+        11,
+        35.5
+      ],
+      "upper_above": [
+        5.5,
+        18,
+        43.45,
+        44
+      ],
+      "upper_below": [
+        5.5,
+        18,
+        42.2,
+        42.9
+      ]
+    },
+    "measurements": {
+      "before-balanced": {
+        "large_left": {
+          "pixel_rectangle": [
+            58,
+            225,
+            77,
+            633
+          ],
+          "mean_absolute_rgb_delta": 19.772617819057448,
+          "max_channel_delta": 129,
+          "changed_pixel_fraction": 0.8169504643962848
+        },
+        "upper_above": {
+          "pixel_rectangle": [
+            613,
+            83,
+            822,
+            92
+          ],
+          "mean_absolute_rgb_delta": 4.276094276094276,
+          "max_channel_delta": 37,
+          "changed_pixel_fraction": 0.43115364167995746
+        },
+        "upper_below": {
+          "pixel_rectangle": [
+            613,
+            102,
+            822,
+            113
+          ],
+          "mean_absolute_rgb_delta": 23.779469334493257,
+          "max_channel_delta": 150,
+          "changed_pixel_fraction": 0.8425402348847325
+        }
+      },
+      "after-fast": {
+        "large_left": {
+          "pixel_rectangle": [
+            58,
+            225,
+            77,
+            633
+          ],
+          "mean_absolute_rgb_delta": 0.0,
+          "max_channel_delta": 0,
+          "changed_pixel_fraction": 0.0
+        },
+        "upper_above": {
+          "pixel_rectangle": [
+            613,
+            83,
+            822,
+            92
+          ],
+          "mean_absolute_rgb_delta": 0.0,
+          "max_channel_delta": 0,
+          "changed_pixel_fraction": 0.0
+        },
+        "upper_below": {
+          "pixel_rectangle": [
+            613,
+            102,
+            822,
+            113
+          ],
+          "mean_absolute_rgb_delta": 0.0,
+          "max_channel_delta": 0,
+          "changed_pixel_fraction": 0.0
+        }
+      },
+      "after-balanced": {
+        "large_left": {
+          "pixel_rectangle": [
+            58,
+            225,
+            77,
+            633
+          ],
+          "mean_absolute_rgb_delta": 0.06256449948400412,
+          "max_channel_delta": 11,
+          "changed_pixel_fraction": 0.018188854489164085
+        },
+        "upper_above": {
+          "pixel_rectangle": [
+            613,
+            83,
+            822,
+            92
+          ],
+          "mean_absolute_rgb_delta": 0.0,
+          "max_channel_delta": 0,
+          "changed_pixel_fraction": 0.0
+        },
+        "upper_below": {
+          "pixel_rectangle": [
+            613,
+            102,
+            822,
+            113
+          ],
+          "mean_absolute_rgb_delta": 0.729447585906916,
+          "max_channel_delta": 15,
+          "changed_pixel_fraction": 0.1661591996520226
+        }
+      },
+      "after-cinematic": {
+        "large_left": {
+          "pixel_rectangle": [
+            82,
+            315,
+            107,
+            887
+          ],
+          "mean_absolute_rgb_delta": 0.007202797202797203,
+          "max_channel_delta": 5,
+          "changed_pixel_fraction": 0.003916083916083916
+        },
+        "upper_above": {
+          "pixel_rectangle": [
+            859,
+            117,
+            1150,
+            129
+          ],
+          "mean_absolute_rgb_delta": 9.545628102329134e-05,
+          "max_channel_delta": 1,
+          "changed_pixel_fraction": 0.000286368843069874
+        },
+        "upper_below": {
+          "pixel_rectangle": [
+            859,
+            142,
+            1150,
+            159
+          ],
+          "mean_absolute_rgb_delta": 0.2746445657300721,
+          "max_channel_delta": 14,
+          "changed_pixel_fraction": 0.07357994744289469
+        }
+      }
+    },
+    "passed": true
+  },
+  "glb_byte_identical_to_v12": true,
+  "artifacts": {
+    "Aloft_Interactive_v13.html": {
+      "bytes": 10516405,
+      "sha256": "687b61114c69424335a29ca2e26543af4122c8f37e653477cde46ce2266d33d7"
+    },
+    "Aloft_Interactive_v13.zip": {
+      "bytes": 3143875,
+      "sha256": "e11c53846bc47bae9ab41d87a498b9825d5d519b2a656a5d458f60fc2a263101"
+    },
+    "Aloft_Blender_v13.zip": {
+      "bytes": 1757981,
+      "sha256": "fa3b7c2b085fcd82d146d4f3230f90fc3fd139c0553256dfce208cfa7c59b855"
+    },
+    "aloft_v12.glb": {
+      "bytes": 5638020,
+      "sha256": "b8b6f69b577c8d2975dfb51e2b933d282d00cb72c4ec765298429da2fd8d6169"
+    }
+  }
+}

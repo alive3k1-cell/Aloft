@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 13,
   "project": "Aloft · Ташкент",
   "source_blend_sha256": "78eb48474ca088710de47865e758f2dfe55ab3bf456bdd1b3d93c6323b853f63",
   "units": "m",
@@ -1580,5 +1580,11 @@
     "seconds": 7.88,
     "geometry_positions_indices_materials_unchanged": true,
     "limits": "Static opaque-architecture visibility, five weighted samples per strip, interpolated at vertices; illustrative fill, not a photometric calculation."
-  }
+  },
+  "source_geometry_version": 12,
+  "spill_render_groups": [
+    "POOL"
+  ],
+  "render_settings_blend_sha256": "a687209b7e16f03621dc77f5ef8e635f05d8a2bdd7c9313ba71e368235352815",
+  "facade_spill_status": "Disabled by user revision V13; emissive neon and bloom remain"
 }

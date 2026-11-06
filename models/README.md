@@ -1,5 +1,15 @@
 # Aloft — архитектура и RGBW-свет
 
+## V13 — убрана засветка вдоль фасадных рам
+
+**[Скачать просмотрщик V13](Aloft_Interactive_v13.zip)** · [HTML отдельно](Aloft_Interactive_v13.html) · [Blender V13](Aloft_Blender_v13.zip)
+
+Отключены восемь вспомогательных источников, дававших яркие пятна вдоль большой и верхней оранжевых рам. Сами линии неона, анимация и мягкое свечение сохранены. Архитектура, материалы, настройки ночи V12 и направленная вниз подсветка бассейна не менялись.
+
+[Фасад после исправления](Aloft_v13_front.png) · [Описание](Aloft_v13_status.md) · [Проверки](Aloft_v13_validation.json)
+
+Распакуйте архив и откройте `Aloft_Interactive_v13.html` в Chrome или Edge. Для Blender используйте `Aloft_corrected_v13.blend`.
+
 ## V12 — мягкая ночь и исправление просвечивания света
 
 **[Скачать просмотрщик V12](Aloft_Interactive_v12.zip)** · [HTML отдельно](Aloft_Interactive_v12.html) · [Blender V12](Aloft_Blender_v12.zip)
